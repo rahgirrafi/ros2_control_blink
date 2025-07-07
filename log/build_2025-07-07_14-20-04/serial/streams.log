@@ -1,0 +1,28 @@
+[0.918s] Invoking command in '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial': PS1=[\u@\h \W]\$ /usr/bin/cmake --build /run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial -- -j12 -l12
+[1.018s] [100%] Built target serial
+[1.028s] Invoked command in '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial' returned '0': PS1=[\u@\h \W]\$ /usr/bin/cmake --build /run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial -- -j12 -l12
+[1.035s] Invoking command in '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial': PS1=[\u@\h \W]\$ /usr/bin/cmake --install /run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial
+[1.040s] -- Install configuration: ""
+[1.040s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/library_path.sh
+[1.040s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/library_path.dsv
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/libserial.a
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/include/serial/serial.h
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/include/serial/v8stdint.h
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/path.sh
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/path.dsv
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/local_setup.bash
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/local_setup.sh
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/local_setup.zsh
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/local_setup.dsv
+[1.041s] -- Installing: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/package.dsv
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/ament_index/resource_index/packages/serial
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.041s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake/serialConfig.cmake
+[1.042s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.042s] -- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/package.xml
+[1.042s] Invoked command in '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial' returned '0': PS1=[\u@\h \W]\$ /usr/bin/cmake --install /run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial

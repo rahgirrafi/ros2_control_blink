@@ -1,0 +1,34 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found serial: 1.2.1 (/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink
+[35m[1mConsolidate compiler generated dependencies of target arduino_blink[0m
+[100%] Built target arduino_blink
+-- Install configuration: ""
+-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/arduino_blink/share/arduino_blink/plugins/arduino_hardware.xml
+-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/arduino_blink/lib/libarduino_blink.so
+-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/arduino_blink/include
+-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/arduino_blink/include/arduino_blink
+-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/arduino_blink/include/blink.hpp
+[31mCMake Error at cmake_install.cmake:77 (file):
+  file INSTALL cannot find
+  "/run/media/rafi/Technical/Github/ws_ros2_control_blink/src/arduino_blink/arduino_hardware.xml":
+  No such file or directory.
+
+[0m

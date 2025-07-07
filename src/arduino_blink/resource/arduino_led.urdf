@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="arduino-led-robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <ros2_control name="ArduinoLEDSystem" type="system">
+    <hardware>
+      <plugin>arduino_led_hardware/ArduinoLEDSystem</plugin>
+      <param name="serial_port">/dev/ttyACM0</param>
+      <param name="baud_rate">115200</param>
+    </hardware>
+    <joint name="led">
+      <command_interface name="command"/>
+      <state_interface name="state"/>
+    </joint>
+  </ros2_control>
+</robot>

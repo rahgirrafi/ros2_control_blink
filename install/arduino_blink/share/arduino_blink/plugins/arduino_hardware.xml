@@ -1,0 +1,9 @@
+<library path="arduino_blink">
+  <class name="arduino_blink/ArduinoLEDSystem"
+         type="arduino_blink::ArduinoLEDSystem"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Hardware interface for Arduino LED
+    </description>
+  </class>
+</library>

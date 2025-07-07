@@ -1,0 +1,29 @@
+[0.005s] Invoking command in '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink': CMAKE_PREFIX_PATH=/opt/ros/humble:/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial PKG_CONFIG_PATH=/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/x86_64-linux-gnu/pkgconfig:/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/pkgconfig PS1=[\u@\h \W]\$ ROS_PACKAGE_PATH=/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share /usr/bin/cmake --build /run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink -- -j12 -l12
+[0.023s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.143s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.148s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.315s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.333s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.339s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.353s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.360s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.367s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.406s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.421s] -- Found serial: 1.2.1 (/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake)
+[0.422s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[0.422s]   Given plugin description file
+[0.422s]   '/run/media/rafi/Technical/Github/ws_ros2_control_blink/src/arduino_blink//run/media/rafi/Technical/Github/ws_ros2_control_blink/src/arduino_blink/arduino_hardware.xml'
+[0.423s]   does not exist
+[0.423s] Call Stack (most recent call first):
+[0.423s]   CMakeLists.txt:46 (pluginlib_export_plugin_description_file)
+[0.423s] 
+[0.423s] [0m
+[0.423s] -- Configuring incomplete, errors occurred!
+[0.423s] See also "/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink/CMakeFiles/CMakeOutput.log".
+[0.427s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.429s] Invoked command in '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial PKG_CONFIG_PATH=/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/x86_64-linux-gnu/pkgconfig:/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/pkgconfig PS1=[\u@\h \W]\$ ROS_PACKAGE_PATH=/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share /usr/bin/cmake --build /run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink -- -j12 -l12

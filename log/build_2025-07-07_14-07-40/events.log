@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000302] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000381] (arduino_blink) JobQueued: {'identifier': 'arduino_blink', 'dependencies': OrderedDict([('serial', '/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial')])}
+[0.000680] (serial) JobStarted: {'identifier': 'serial'}
+[0.005804] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.006578] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.006623] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial', '--', '-j12', '-l12'], 'cwd': '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial', 'env': OrderedDict([('PROFILEHOME', ''), ('MAIL', '/var/spool/mail/rafi'), ('LANGUAGE', ''), ('USER', 'rafi'), ('HOSTNAME', 'archlinux'), ('XDG_SESSION_TYPE', 'wayland'), ('KONSOLE_VERSION', '250403'), ('XDG_CACHE_HOME', '/home/rafi/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rafi'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/rafi'), ('DESKTOP_SESSION', 'gnome'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('MANAGERPID', '1882'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2110'), ('XDG_STATE_HOME', '/home/rafi/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('container', 'sudo docker'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4625'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('GNOME_KEYRING_CONTROL', '/run/user/1000/keyring'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafi'), ('WINDOWID', '103982547459408'), ('JOURNAL_STREAM', '9:18554'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('USERNAME', 'rafi'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafi/anaconda3/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/sbin:/sbin:/bin'), ('SESSION_MANAGER', 'local/archlinux:@/tmp/.ICE-unix/1957,unix/archlinux:/tmp/.ICE-unix/1957'), ('GDM_LANG', 'en_US.UTF-8'), ('INVOCATION_ID', 'a0951426a69d4809aef578d198f01e9d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/rafi/miniforge3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XDG_DATA_HOME', '/home/rafi/.local/share'), ('XDG_CONFIG_HOME', '/home/rafi/.config'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JDBW82'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rafi/anaconda3/bin/python'), ('SHELL', '/usr/bin/bash'), ('GDMSESSION', 'gnome'), ('KONSOLE_DBUS_SERVICE', ':1.126'), ('MAMBA_EXE', '/home/rafi/miniforge3/bin/mamba'), ('PWD', '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial'), ('CONTAINER_ID', 'ubuntu22'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('CONDA_EXE', '/home/rafi/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/home/rafi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA=')]), 'shell': False}
+[0.040326] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[0.047328] (serial) CommandEnded: {'returncode': 0}
+[0.047961] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.053473] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial'], 'cwd': '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial', 'env': OrderedDict([('PROFILEHOME', ''), ('MAIL', '/var/spool/mail/rafi'), ('LANGUAGE', ''), ('USER', 'rafi'), ('HOSTNAME', 'archlinux'), ('XDG_SESSION_TYPE', 'wayland'), ('KONSOLE_VERSION', '250403'), ('XDG_CACHE_HOME', '/home/rafi/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rafi'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/rafi'), ('DESKTOP_SESSION', 'gnome'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('MANAGERPID', '1882'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2110'), ('XDG_STATE_HOME', '/home/rafi/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('container', 'sudo docker'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4625'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('GNOME_KEYRING_CONTROL', '/run/user/1000/keyring'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafi'), ('WINDOWID', '103982547459408'), ('JOURNAL_STREAM', '9:18554'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('USERNAME', 'rafi'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafi/anaconda3/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/sbin:/sbin:/bin'), ('SESSION_MANAGER', 'local/archlinux:@/tmp/.ICE-unix/1957,unix/archlinux:/tmp/.ICE-unix/1957'), ('GDM_LANG', 'en_US.UTF-8'), ('INVOCATION_ID', 'a0951426a69d4809aef578d198f01e9d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/rafi/miniforge3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XDG_DATA_HOME', '/home/rafi/.local/share'), ('XDG_CONFIG_HOME', '/home/rafi/.config'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JDBW82'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rafi/anaconda3/bin/python'), ('SHELL', '/usr/bin/bash'), ('GDMSESSION', 'gnome'), ('KONSOLE_DBUS_SERVICE', ':1.126'), ('MAMBA_EXE', '/home/rafi/miniforge3/bin/mamba'), ('PWD', '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/serial'), ('CONTAINER_ID', 'ubuntu22'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('CONDA_EXE', '/home/rafi/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/home/rafi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA=')]), 'shell': False}
+[0.058807] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.058958] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/library_path.sh\n'}
+[0.059019] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/library_path.dsv\n'}
+[0.059074] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/libserial.a\n'}
+[0.059179] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/include/serial/serial.h\n'}
+[0.059229] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/include/serial/v8stdint.h\n'}
+[0.059305] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[0.059360] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[0.059411] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[0.059463] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[0.059514] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/path.sh\n'}
+[0.059564] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/environment/path.dsv\n'}
+[0.059615] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/local_setup.bash\n'}
+[0.059666] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/local_setup.sh\n'}
+[0.059717] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/local_setup.zsh\n'}
+[0.059768] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/local_setup.dsv\n'}
+[0.059819] (serial) StdoutLine: {'line': b'-- Installing: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/package.dsv\n'}
+[0.059869] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[0.059920] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.059993] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.060108] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[0.060164] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[0.060214] (serial) StdoutLine: {'line': b'-- Up-to-date: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/package.xml\n'}
+[0.060605] (serial) CommandEnded: {'returncode': 0}
+[0.073542] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[0.074241] (arduino_blink) JobStarted: {'identifier': 'arduino_blink'}
+[0.078143] (arduino_blink) JobProgress: {'identifier': 'arduino_blink', 'progress': 'cmake'}
+[0.078588] (arduino_blink) JobProgress: {'identifier': 'arduino_blink', 'progress': 'build'}
+[0.078876] (arduino_blink) Command: {'cmd': ['/usr/bin/cmake', '--build', '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink', '--', '-j12', '-l12'], 'cwd': '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink', 'env': OrderedDict([('PROFILEHOME', ''), ('MAIL', '/var/spool/mail/rafi'), ('LANGUAGE', ''), ('USER', 'rafi'), ('HOSTNAME', 'archlinux'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_PACKAGE_PATH', '/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share'), ('KONSOLE_VERSION', '250403'), ('XDG_CACHE_HOME', '/home/rafi/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rafi'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/rafi'), ('DESKTOP_SESSION', 'gnome'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('MANAGERPID', '1882'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '2110'), ('XDG_STATE_HOME', '/home/rafi/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('container', 'sudo docker'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4625'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('GNOME_KEYRING_CONTROL', '/run/user/1000/keyring'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafi'), ('WINDOWID', '103982547459408'), ('JOURNAL_STREAM', '9:18554'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('PKG_CONFIG_PATH', '/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/x86_64-linux-gnu/pkgconfig:/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/pkgconfig'), ('USERNAME', 'rafi'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rafi/anaconda3/condabin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/sbin:/sbin:/bin'), ('SESSION_MANAGER', 'local/archlinux:@/tmp/.ICE-unix/1957,unix/archlinux:/tmp/.ICE-unix/1957'), ('GDM_LANG', 'en_US.UTF-8'), ('INVOCATION_ID', 'a0951426a69d4809aef578d198f01e9d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAMBA_ROOT_PREFIX', '/home/rafi/miniforge3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XDG_DATA_HOME', '/home/rafi/.local/share'), ('XDG_CONFIG_HOME', '/home/rafi/.config'), ('XDG_SESSION_DESKTOP', 'gnome'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JDBW82'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/rafi/anaconda3/bin/python'), ('SHELL', '/usr/bin/bash'), ('GDMSESSION', 'gnome'), ('KONSOLE_DBUS_SERVICE', ':1.126'), ('MAMBA_EXE', '/home/rafi/miniforge3/bin/mamba'), ('PWD', '/run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink'), ('CONTAINER_ID', 'ubuntu22'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('CONDA_EXE', '/home/rafi/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/home/rafi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/usr/local/share:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial')]), 'shell': False}
+[0.097049] (arduino_blink) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100023] (-) TimerEvent: {}
+[0.192121] (arduino_blink) StdoutLine: {'line': b'-- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.200124] (-) TimerEvent: {}
+[0.214280] (arduino_blink) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.216339] (arduino_blink) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.221112] (arduino_blink) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.229029] (arduino_blink) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.239231] (arduino_blink) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300248] (-) TimerEvent: {}
+[0.386148] (arduino_blink) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.387181] (arduino_blink) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400346] (-) TimerEvent: {}
+[0.403101] (arduino_blink) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.409794] (arduino_blink) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.422748] (arduino_blink) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.428926] (arduino_blink) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.435667] (arduino_blink) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.472918] (arduino_blink) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.486652] (arduino_blink) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/share/serial/cmake)\n'}
+[0.493070] (arduino_blink) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500442] (-) TimerEvent: {}
+[0.542412] (arduino_blink) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.559994] (arduino_blink) StdoutLine: {'line': b'-- Generating done\n'}
+[0.564172] (arduino_blink) StdoutLine: {'line': b'-- Build files have been written to: /run/media/rafi/Technical/Github/ws_ros2_control_blink/build/arduino_blink\n'}
+[0.582773] (arduino_blink) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target arduino_blink\x1b[0m\n'}
+[0.595219] (arduino_blink) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/arduino_blink.dir/src/blink.cpp.o\x1b[0m\n'}
+[0.600536] (-) TimerEvent: {}
+[0.700766] (-) TimerEvent: {}
+[0.801039] (-) TimerEvent: {}
+[0.901319] (-) TimerEvent: {}
+[1.001603] (-) TimerEvent: {}
+[1.101884] (-) TimerEvent: {}
+[1.202165] (-) TimerEvent: {}
+[1.302444] (-) TimerEvent: {}
+[1.402721] (-) TimerEvent: {}
+[1.503003] (-) TimerEvent: {}
+[1.603286] (-) TimerEvent: {}
+[1.703563] (-) TimerEvent: {}
+[1.803843] (-) TimerEvent: {}
+[1.904126] (-) TimerEvent: {}
+[2.004408] (-) TimerEvent: {}
+[2.104702] (-) TimerEvent: {}
+[2.204992] (-) TimerEvent: {}
+[2.305272] (-) TimerEvent: {}
+[2.405548] (-) TimerEvent: {}
+[2.505855] (-) TimerEvent: {}
+[2.606143] (-) TimerEvent: {}
+[2.706439] (-) TimerEvent: {}
+[2.806732] (-) TimerEvent: {}
+[2.907027] (-) TimerEvent: {}
+[3.007325] (-) TimerEvent: {}
+[3.107604] (-) TimerEvent: {}
+[3.207899] (-) TimerEvent: {}
+[3.308172] (-) TimerEvent: {}
+[3.394200] (arduino_blink) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libarduino_blink.so\x1b[0m\n'}
+[3.408301] (-) TimerEvent: {}
+[3.497891] (arduino_blink) StderrLine: {'line': b"/usr/bin/ld: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/libserial.a(unix.cc.o): warning: relocation against `_ZTVN6serial15SerialExceptionE' in read-only section `.text._ZN6serial15SerialExceptionD2Ev[_ZN6serial15SerialExceptionD5Ev]'\n"}
+[3.505349] (arduino_blink) StderrLine: {'line': b"/usr/bin/ld: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/libserial.a(serial.cc.o): relocation R_X86_64_PC32 against symbol `_ZTVN6serial6SerialE' can not be used when making a shared object; recompile with -fPIC\n"}
+[3.505462] (arduino_blink) StderrLine: {'line': b'/usr/bin/ld: final link failed: bad value\n'}
+[3.506853] (arduino_blink) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[3.508138] (arduino_blink) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/arduino_blink.dir/build.make:300: libarduino_blink.so] Error 1\n'}
+[3.508331] (arduino_blink) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arduino_blink.dir/all] Error 2\n'}
+[3.508437] (-) TimerEvent: {}
+[3.508602] (arduino_blink) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.510570] (arduino_blink) CommandEnded: {'returncode': 2}
+[3.513590] (arduino_blink) JobEnded: {'identifier': 'arduino_blink', 'rc': 2}
+[3.523900] (-) EventReactorShutdown: {}
