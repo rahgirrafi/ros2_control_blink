@@ -1,7 +1,0 @@
-/usr/bin/ld: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/libserial.a(unix.cc.o): warning: relocation against `_ZTVN6serial15SerialExceptionE' in read-only section `.text._ZN6serial15SerialExceptionD2Ev[_ZN6serial15SerialExceptionD5Ev]'
-/usr/bin/ld: /run/media/rafi/Technical/Github/ws_ros2_control_blink/install/serial/lib/libserial.a(serial.cc.o): relocation R_X86_64_PC32 against symbol `_ZTVN6serial6SerialE' can not be used when making a shared object; recompile with -fPIC
-/usr/bin/ld: final link failed: bad value
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/arduino_blink.dir/build.make:291: libarduino_blink.so] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arduino_blink.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

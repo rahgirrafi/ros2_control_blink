@@ -1,6 +1,0 @@
-[31mCMake Error at CMakeLists.txt:46 (pluginlib_export_plugin_description_file):
-  pluginlib_export_plugin_description_file Macro invoked with incorrect
-  arguments for macro named: pluginlib_export_plugin_description_file
-
-[0m
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,4 +1,0 @@
-source;share/arduino_blink/local_setup.bash
-source;share/arduino_blink/local_setup.dsv
-source;share/arduino_blink/local_setup.sh
-source;share/arduino_blink/local_setup.zsh
