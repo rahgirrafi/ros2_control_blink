@@ -1,6 +1,6 @@
 # ros2_control_micro
 
-A Arduino LED Blink Program with ROS 2 Control. Here the arduino communicated with ROS 2 through the Serial.
+An Arduino LED Blink Program with ROS 2 Control. Here the arduino communicated with ROS 2 through the Serial.
 
 File: src/arduino_hardware/src/arduino_hardware.cpp
 
