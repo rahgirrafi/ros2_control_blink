@@ -7,3 +7,6 @@ File: src/arduino_hardware/src/arduino_hardware.cpp
 The read and write method is used for sending data to Arduino. The arduino need to be programmed so that it reads serial data whenever it is available.
 
 Interested users who are experience with arduino should be able to customize the code to make it usable for their fucntion.
+
+
+As micro_ros cannot be run on low resource devices like Arduino Uno or nano, serial communication is a very simple yet effective way for them to communicate with ROS 2 interface.
