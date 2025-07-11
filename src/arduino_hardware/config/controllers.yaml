@@ -1,0 +1,22 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 10
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    
+    arduino_led_controller:
+      type: arduino_hardware/ArduinoLEDController
+
+
+arduino_led_controller:
+  ros__parameters:
+    serial_port: /dev/ttyACM1
+    baud_rate: 9600
+    led_pin: 13
+
+    # Add other controllers as needed
+    # Example:
+    # another_controller:
+    #   type: another_package/AnotherControllerType
+  

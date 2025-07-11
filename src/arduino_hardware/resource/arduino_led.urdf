@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot name="arduino-led-robot">
+  <link name="led">
+    <visual>
+      <geometry>
+        <cylinder length="0.6" radius="0.2"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <ros2_control name="ArduinoLED" type="system">
+    <hardware>
+      <plugin>arduino_hardware/ArduinoLED</plugin>
+      <param name="serial_port">/dev/ttyACM1</param>
+      <param name="baud_rate">9600</param>
+      <param name="led_pin">13</param>
+    </hardware>
+
+  </ros2_control>
+</robot>  

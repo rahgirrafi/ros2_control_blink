@@ -1,0 +1,9 @@
+<library path="arduino_hardware">
+  <class name="arduino_hardware/ArduinoLEDController"
+         type="arduino_hardware::ArduinoLEDController"
+         base_class_type="controller_interface::ControllerInterface">
+    <description>
+      Controller interface for Arduino LED controller
+    </description>
+  </class>
+</library>
