@@ -2,10 +2,24 @@
 
 An Arduino LED Blink Program with ROS 2 Control. Here the arduino communicated with ROS 2 through the Serial.
 
+## Usage
 
-The read and write method in arduino_hardware.cpp is used for sending data to Arduino. The arduino need to be programmed so that it reads serial data whenever it is available.
+Clone this repository
 
-Interested users who are experience with arduino should be able to customize the code to make it usable for their fucntion.
+```bash
+git clone https://github.com/rahgirrafi/ros2_control_micro.git --recursive 
+```
 
+## Dependecies
+This package depends on serial-ros2 package from RoverRobotics-forks. You need to first build it.
 
-As micro_ros cannot run on low resource devices like Arduino Uno or nano, serial communication is a very simple yet effective way for them to communicate with ROS 2 interface.
+from the root directory of serial-ros2:
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+
+```
